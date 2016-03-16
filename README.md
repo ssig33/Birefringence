@@ -12,8 +12,13 @@ example.
   $ ruby app.rb http://irccloud.com IRCCloud
 ```
 
-# Are you want to set Icon for App?
+And see workdir.
+
+# Do you want to set an Icon for your App?
 OK. I don't need.
+
+# Risk
+**If website had evil code that attack electron, attackes can run arbitrary code on your fucking computer.**
 
 # License
 WTFPL.
