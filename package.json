@@ -1,0 +1,11 @@
+{
+  "name": "Birefringence.git",
+  "version": "1.0.0",
+  "description": "i do not want to write description.",
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "ssig33",
+  "license": "WTFPL",
+}
