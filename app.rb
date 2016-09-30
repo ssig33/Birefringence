@@ -11,7 +11,7 @@ open('workdir/app.js','w'){|x| x.puts ary.join("\n")}
 FileUtils.cd "./workdir"
 
 system "npm i"
-system "./node_modules/.bin/electron-packager . #{ARGV[1]} --platform=win32 --arch=x64 --version=0.37.2 --overwrite"
-system "./node_modules/.bin/electron-packager . #{ARGV[1]} --platform=darwin --arch=x64 --version=0.37.2 --overwrite"
-system "./node_modules/.bin/electron-packager . #{ARGV[1]} --platform=linux --arch=x64 --version=0.37.2 --overwrite"
-system "./node_modules/.bin/electron-packager . #{ARGV[1]} --platform=win32 --arch=ia32 --version=0.37.2 --overwrite"
+system "./node_modules/.bin/electron-packager . #{ARGV[1]} --platform=win32 --arch=x64 --version=1.4.0 --overwrite"
+system "./node_modules/.bin/electron-packager . #{ARGV[1]} --platform=darwin --arch=x64 --version=1.4.0 --overwrite"
+system "./node_modules/.bin/electron-packager . #{ARGV[1]} --platform=linux --arch=x64 --version=1.4.0 --overwrite"
+system "./node_modules/.bin/electron-packager . #{ARGV[1]} --platform=win32 --arch=ia32 --version=1.4.0 --overwrite"
