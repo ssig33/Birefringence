@@ -1,12 +1,9 @@
 'use strict';
 
 
-var app = require('app');
-var BrowserWindow = require('browser-window');
+const {app, BrowserWindow, Menu} = require('electron')
 
 var mainWindow = null;
-
-var Menu = require("menu");
 
 var template = [{
   label: "Application",
